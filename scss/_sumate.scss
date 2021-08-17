@@ -1,0 +1,30 @@
+/* ====================== Sumate ====================== */
+
+#sumate{
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+        h1{text-align: left; margin-bottom: 5%;}
+        fieldset {margin-top: 4%;}
+        select{font-size: medium;}
+        legend{margin-bottom: 2%;}
+}
+
+.saltoForm{margin-top: 5%;}
+.saltoGen{margin-top: 1%; margin-bottom: 6%;}
+
+.espaciadoForm{margin-left: 0.5%; margin-right: 3%;}
+.espaciadoForm2{margin-left: 1%;}
+.paddingBoton{padding: 0.5%;}
+
+@media only screen and (min-width:1200px) /* MEDIAQ PARA ESCRITORIO */ 
+{
+    #sumate{
+        margin: 4%;
+            h1{margin-bottom: 2%;}
+            fieldset {margin-top: 2%;}
+            legend{margin-bottom: 1%;}
+    }    
+    .saltoForm{display: inline;}
+    .saltoGen{margin-top: 2%; margin-bottom: 2%;}
+}
